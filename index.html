@@ -168,7 +168,7 @@
         </div>
     </div>
  
-   <script src='//whephiwums.com/vignette.min.js' data-zone='8861184' data-sdk='show_8861184'></script>
+   <script src='//whephiwums.com/vignette.min.js' data-zone='8979031' data-sdk='show_8979031'></script>
  
     <script>
         const MIN_WITHDRAW_POINTS = 500;
@@ -217,7 +217,7 @@
         // Function to start auto showing ads
         function startAutoAds() {
             autoAdInterval = setInterval(watchAd, 100000); // Auto show ad every 7 seconds
-            document.getElementById('auto-ad-btn').disabled = true;
+            document.getElementById('auto-ad-btn').disabled = false;
             document.getElementById('stop-auto-btn').disabled = false;
         }
  
@@ -225,7 +225,7 @@
         function stopAutoAds() {
             clearInterval(autoAdInterval);
             document.getElementById('auto-ad-btn').disabled = false;
-            document.getElementById('stop-auto-btn').disabled = true;
+            document.getElementById('stop-auto-btn').disabled = false;
         }
  
         // Function to show withdraw form
